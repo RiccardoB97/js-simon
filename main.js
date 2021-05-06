@@ -16,8 +16,8 @@ function randomNumber(min, max) {
 for (var i = 0; i < 5; i++) {
     var generatedNumber = randomNumber(1, 100)
     pcNumbers.push(generatedNumber)
-    alert(generatedNumber);
 }
+alert(pcNumbers);
 // Da li parte un timer di 30 secondi.
 //Dopo 30 secondi l'utente deve inserire, uno alla volta, i numeri che ha visto precedentemente, tramite il prompt().
 setTimeout(function () {
